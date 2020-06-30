@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/codeshareman
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -16,16 +16,15 @@ direction: ltr
 nav:
   home: /
   about: /about/
-  articles: /archives/
-  projects: projects_url
-
+  Archives: /archives/
+  Projects: https://github.com/codeshareman
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
+  github: https://github.com/codeshareman
   twitter: /
   facebook: /
   linkedin: /
@@ -42,7 +41,7 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 20
   sort_updated: false
 
 # Customize the archive view.
