@@ -3,7 +3,6 @@
   <%- markdown(config.description) %>
   <% } %>
 </section>
-
 <section id="writing">
   <span class="h1"><a href="<%- url_for("archives") %>"><%= __('index.articles') %></a></span>
   <% if (theme.tags_overview && site.tags.length) { %>
@@ -49,7 +48,7 @@
 <%- js('lib/jquery/typed.min') %>
 <script>
   var phase1 = "好奇心使我探索，探索使我热爱，热爱使生活更美好\n";
-  var phase2 = "[curiosity] make me [explore]\n";
+  var phase2 = "[curiosity] make me love [explore]\n";
   var phase3 = "[ explore ] make me love [front-end]\n"
   var phase4 = "[front-end] make me love [life]\n"
   var options = {

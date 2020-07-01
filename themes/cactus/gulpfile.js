@@ -26,7 +26,7 @@ gulp.task('lib:mesloFont', function () {
   return download('https://github.com/andreberg/Meslo-Font/blob/master/dist/v1.2/Meslo%20LG%20v1.2.zip?raw=true')
     .pipe(decompress({
       filter: file => path.extname(file.path) == '.ttf',
-      strip: 1
+      strip: 0
     }))
     .pipe(gulp.dest('./source/lib/meslo-LG'));
 });
